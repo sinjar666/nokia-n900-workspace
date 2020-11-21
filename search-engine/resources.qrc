@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="allergen-icon.jpg">icons/allergen.jpg</file>
+        <file alias="drug-icon.jpg">icons/drug.jpg</file>
+        <file alias="familyHist-icon.jpg">icons/family.jpg</file>
+        <file alias="investigation-icon.jpg">icons/investigation.jpg</file>
+        <file alias="misc-icon.jpg">icons/misc.jpg</file>
+        <file alias="surgery-icon.jpg">icons/surgery.jpg</file>
+        <file alias="symptom-icon.jpg">icons/symptom.jpg</file>
+        <file alias="search-icon.png">icons/Search.png</file>
+    </qresource>
+</RCC>

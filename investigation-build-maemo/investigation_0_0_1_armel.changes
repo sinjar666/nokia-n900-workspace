@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Fri, 11 Nov 2011 18:57:24 +0530
+Source: investigation
+Binary: investigation
+Architecture: armel
+Version: 0.0.1
+Distribution: unstable
+Urgency: low
+Maintainer: Srijan <srijan@unknown>
+Changed-By: Srijan <srijan@unknown>
+Description: 
+ investigation - <insert up to 60 chars description>
+Changes: 
+ investigation (0.0.1) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ 0516d593aef2d88f2cbfb4ca8fac4fdf0c3da775 152340 investigation_0.0.1_armel.deb
+Checksums-Sha256: 
+ 36fd6b91aae7c20582d36f8de5854430759db37c09e65ef92c1c85c8bcfdc56e 152340 investigation_0.0.1_armel.deb
+Files: 
+ 88cb399f1abaaaae0191f6930277e047 152340 user/hidden optional investigation_0.0.1_armel.deb

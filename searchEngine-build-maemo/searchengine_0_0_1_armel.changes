@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Thu, 08 Dec 2011 16:51:15 +0530
+Source: searchengine
+Binary: searchengine
+Architecture: armel
+Version: 0.0.1
+Distribution: unstable
+Urgency: low
+Maintainer: Srijan <srijan@unknown>
+Changed-By: Srijan <srijan@unknown>
+Description: 
+ searchengine - <insert up to 60 chars description>
+Changes: 
+ searchengine (0.0.1) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ bd6d30c920805de33d4e23169a3d058080f516be 510232 searchengine_0.0.1_armel.deb
+Checksums-Sha256: 
+ 4b965e1d23834891312c39d90e23e6709cafa6b579f9a1f37ed6b14b90e06dcd 510232 searchengine_0.0.1_armel.deb
+Files: 
+ 735cd269e9270daf5565202e6519719d 510232 user/hidden optional searchengine_0.0.1_armel.deb

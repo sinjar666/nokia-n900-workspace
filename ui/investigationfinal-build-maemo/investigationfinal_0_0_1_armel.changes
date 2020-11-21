@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Fri, 11 Nov 2011 21:26:04 +0530
+Source: investigationfinal
+Binary: investigationfinal
+Architecture: armel
+Version: 0.0.1
+Distribution: unstable
+Urgency: low
+Maintainer: Srijan <srijan@unknown>
+Changed-By: Srijan <srijan@unknown>
+Description: 
+ investigationfinal - <insert up to 60 chars description>
+Changes: 
+ investigationfinal (0.0.1) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ 096da559626eda8f00edc9a0db090b72d7436aff 90394 investigationfinal_0.0.1_armel.deb
+Checksums-Sha256: 
+ 822d2157457e34e93b1e5ec3051c7bc82c479906435550584deec3d41fe8af9e 90394 investigationfinal_0.0.1_armel.deb
+Files: 
+ 0db962b7b03c7378fc07d6c440e6a075 90394 user/hidden optional investigationfinal_0.0.1_armel.deb

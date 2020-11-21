@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Wed, 24 Aug 2011 22:06:36 +0530
+Source: learnqt
+Binary: learnqt
+Architecture: armel
+Version: 0.0.1
+Distribution: unstable
+Urgency: low
+Maintainer: Srijan <srijan@unknown>
+Changed-By: Srijan <srijan@unknown>
+Description: 
+ learnqt    - <insert up to 60 chars description>
+Changes: 
+ learnqt (0.0.1) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ 32b503fe7682ac559e28b9fa5766890d78343b88 235894 learnqt_0.0.1_armel.deb
+Checksums-Sha256: 
+ 22260264d18bd7665c6c112c35d7635a0fd4c3516daf256e3848dd877330402c 235894 learnqt_0.0.1_armel.deb
+Files: 
+ 188168822988c01514d8fc25c0bd2e32 235894 user/hidden optional learnqt_0.0.1_armel.deb

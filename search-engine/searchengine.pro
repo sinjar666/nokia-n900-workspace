@@ -1,0 +1,77 @@
+# Add files and directories to ship with the application 
+# by adapting the examples below.
+# file1.source = myfile
+# dir1.source = mydir
+DEPLOYMENTFOLDERS = # file1 dir1
+
+symbian:TARGET.UID3 = 0xE7ABE4C9
+
+# Smart Installer package's UID
+# This UID is from the protected range 
+# and therefore the package will fail to install if self-signed
+# By default qmake uses the unprotected range value if unprotected UID is defined for the application
+# and 0x2002CCCF value if protected UID is given to the application
+#symbian:DEPLOYMENT.installer_header = 0x2002CCCF
+
+# Allow network access on Symbian
+symbian:TARGET.CAPABILITY += NetworkServices
+
+# If your application uses the Qt Mobility libraries, uncomment
+# the following lines and add the respective components to the 
+# MOBILITY variable. 
+# CONFIG += mobility
+# MOBILITY +=
+
+SOURCES += main.cpp mainwindow.cpp \
+    engine/indexitem.cpp \
+    engine/engine.cpp \
+    widgets/typedatewid.cpp \
+    widgets/rwid.cpp \
+    widgets/itemwidget.cpp \
+    searchwidget.cpp \
+    mainwidget.cpp \
+    itemlist.cpp \
+    itembutton.cpp \
+    widgets/filterdialog.cpp
+HEADERS += mainwindow.h \
+    engine/indexitem.h \
+    engine/engine.h \
+    widgets/typedatewid.h \
+    widgets/rwid.h \
+    widgets/itemwidget.h \
+    searchwidget.h \
+    mainwidget.h \
+    itemlist.h \
+    itembutton.h \
+    widgets/filterdialog.h
+FORMS +=
+
+# Please do not modify the following two lines. Required for deployment.
+include(deployment.pri)
+qtcAddDeployment()
+
+OTHER_FILES += \
+    qtc_packaging/debian_harmattan/rules \
+    qtc_packaging/debian_harmattan/README \
+    qtc_packaging/debian_harmattan/copyright \
+    qtc_packaging/debian_harmattan/control \
+    qtc_packaging/debian_harmattan/compat \
+    qtc_packaging/debian_harmattan/changelog \
+    qtc_packaging/debian_fremantle/rules \
+    qtc_packaging/debian_fremantle/README \
+    qtc_packaging/debian_fremantle/copyright \
+    qtc_packaging/debian_fremantle/control \
+    qtc_packaging/debian_fremantle/compat \
+    qtc_packaging/debian_fremantle/changelog \
+    icons/symptom.jpg \
+    icons/surgery.jpg \
+    icons/Search.png \
+    icons/misc.jpg \
+    icons/investigation.jpg \
+    icons/family.jpg \
+    icons/drug.jpg \
+    icons/blood-test.jpg \
+    icons/allergen.jpg
+
+RESOURCES += \
+    resources.qrc

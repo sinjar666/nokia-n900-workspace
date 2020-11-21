@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Thu, 08 Sep 2011 15:55:25 +0530
+Source: xyz
+Binary: xyz
+Architecture: armel
+Version: 0.0.1
+Distribution: unstable
+Urgency: low
+Maintainer: Srijan <srijan@unknown>
+Changed-By: Srijan <srijan@unknown>
+Description: 
+ xyz        - <insert up to 60 chars description>
+Changes: 
+ xyz (0.0.1) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ 9d23ea3a9b9cd88ed573dc72bd86f7813862e7ed 283964 xyz_0.0.1_armel.deb
+Checksums-Sha256: 
+ 399b1244cb4f920811e996d1f3011dcde0b72a17c3ef960610de93d1f0bb48e0 283964 xyz_0.0.1_armel.deb
+Files: 
+ 7f817b0be7a57f7fb6beb06fe0c24658 283964 user/hidden optional xyz_0.0.1_armel.deb

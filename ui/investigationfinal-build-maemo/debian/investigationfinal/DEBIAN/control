@@ -1,0 +1,11 @@
+Package: investigationfinal
+Version: 0.0.1
+Architecture: armel
+Maintainer: Srijan <srijan@unknown>
+Installed-Size: 324
+Section: user/hidden
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+Maemo-Display-Name: investigationfinal
